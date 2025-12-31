@@ -59,87 +59,94 @@
     </nav>
 
     <main id="itinerary" class="max-w-md mx-auto px-4 pt-8">
-<section class="day-section">
-  <h2 class="day-title">Day 1｜2月3日（火）<span>日本出発</span></h2>
+<section id="day1" class="mb-20">
 
-  <!-- 概要 -->
-  <div class="card">
-    <h3>Overview</h3>
-    <p>
-      裕希 & 莉紗 新婚旅行の出発日。<br>
-      この日は長距離移動が中心となるため、機内ではできるだけ休息を取り、
-      到着後に備えて体力を温存する。
-    </p>
-  </div>
+    <!-- Day Header -->
+    <div class="mb-6 text-center">
+        <p class="text-xs tracking-widest text-gold uppercase mb-1">Day 1</p>
+        <h2 class="font-serif text-2xl mb-1">Departure from Japan</h2>
+        <p class="text-sm text-gray-500">2026.02.03（火）｜新千歳 → 成田 → ドーハ</p>
+    </div>
 
-  <!-- タイムライン -->
-  <div class="card">
-    <h3>Timeline</h3>
-    <ul class="timeline">
+    <!-- Overview -->
+    <div class="card">
+        <h3 class="font-serif text-lg mb-2">この日のテーマ</h3>
+        <p class="text-sm leading-relaxed text-gray-700">
+            日本出発日。<br>
+            長距離移動が中心の一日。<br>
+            機内ではできるだけ休息を取り、到着後に備えて体力を温存する。
+        </p>
+    </div>
 
-      <li>
-        <span class="time">15:50</span>
-        <div class="content">
-          <strong>新千歳空港 出発</strong><br>
-          MM576｜新千歳 → 成田
+    <!-- Timeline -->
+    <div class="card">
+        <h3 class="font-serif text-lg mb-4">タイムライン</h3>
+
+        <div class="space-y-4 text-sm">
+            <div>
+                <p class="font-medium">15:50</p>
+                <p class="text-gray-700">
+                    新千歳空港 出発<br>
+                    <span class="text-xs text-gray-500">MM576｜新千歳 → 成田</span>
+                </p>
+            </div>
+
+            <div>
+                <p class="font-medium">17:40</p>
+                <p class="text-gray-700">成田空港 到着</p>
+            </div>
+
+            <div>
+                <p class="font-medium">21:55</p>
+                <p class="text-gray-700">
+                    成田空港 出発<br>
+                    <span class="text-xs text-gray-500">QR807｜成田 → ドーハ</span>
+                </p>
+            </div>
+
+            <div>
+                <p class="font-medium">夜</p>
+                <p class="text-gray-700">機内泊（ドーハ経由でローマへ）</p>
+            </div>
         </div>
-      </li>
+    </div>
 
-      <li>
-        <span class="time">17:40</span>
-        <div class="content">
-          <strong>成田空港 到着</strong>
-        </div>
-      </li>
+    <!-- Transport -->
+    <div class="card">
+        <span class="tag text-gold mb-2 inline-block">Transport</span>
+        <h3 class="font-serif text-lg mb-3">長距離フライト</h3>
+        <img src="images/plane.jpg"
+             alt="Flight from Japan"
+             class="w-full h-40 object-cover rounded mb-3">
+        <p class="text-sm text-gray-700 leading-relaxed">
+            この日は移動が中心。<br>
+            機内では睡眠を優先し、体調管理を意識する。
+        </p>
+    </div>
 
-      <li>
-        <span class="time">21:55</span>
-        <div class="content">
-          <strong>成田空港 出発</strong><br>
-          <span class="date">2026/02/03</span><br>
-          QR807｜成田 → ドーハ<br>
-          21:55 → 04:45<span class="plus">＋</span><br>
-          （機内泊）
-        </div>
-      </li>
+    <!-- Transit -->
+    <div class="card">
+        <span class="tag text-gold mb-2 inline-block">Transit</span>
+        <h3 class="font-serif text-lg mb-3">ドーハ乗り継ぎ</h3>
+        <img src="images/doha.jpg"
+             alt="Doha Airport Lounge"
+             class="w-full h-40 object-cover rounded mb-3">
+        <p class="text-sm text-gray-700 leading-relaxed">
+            ドーハ空港ではラウンジで過ごし、<br>
+            軽食と休憩を取りながら次のフライトに備える。
+        </p>
+    </div>
 
-      <li>
-        <span class="time">09:30</span>
-        <div class="content">
-          <strong>ドーハ 出発</strong><br>
-          <span class="date">2026/02/04</span><br>
-          QR131｜ドーハ → ローマ<br>
-          09:30 → 13:30
-        </div>
-      </li>
+    <!-- Notes -->
+    <div class="card">
+        <h3 class="font-serif text-lg mb-2">メモ・注意点</h3>
+        <ul class="list-disc list-inside text-sm text-gray-700 space-y-1">
+            <li>パスポート・搭乗券の管理に注意</li>
+            <li>機内は乾燥しやすいため水分補給を意識</li>
+            <li>無理せず「移動日」と割り切る</li>
+        </ul>
+    </div>
 
-    </ul>
-
-    <p class="note">
-      ドーハ経由でローマへ。<br>
-      ローマ到着後はDay2へ。
-    </p>
-  </div>
-
-  <!-- 移動・機内 -->
-  <div class="card">
-    <h3>Transport｜移動について</h3>
-    <img src="images/plane.jpg" alt="Flight Image" class="photo">
-    <p>
-      長距離移動日。<br>
-      フライト中は無理をせず、睡眠と休憩を最優先に行う。
-    </p>
-  </div>
-
-  <!-- ドーハ -->
-  <div class="card">
-    <h3>Transit｜ドーハ</h3>
-    <img src="images/doha.jpg" alt="Doha Airport" class="photo">
-    <p>
-      ドーハ空港で乗り継ぎ。<br>
-      ラウンジで過ごしながら、ローマ到着に備える。
-    </p>
-  </div>
 </section>
 <section id="day2" class="mb-20">
 
